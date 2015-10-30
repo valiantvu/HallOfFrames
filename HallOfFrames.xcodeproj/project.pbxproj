@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		A56028EB1BE30A09006678B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A56028EA1BE30A09006678B2 /* main.m */; };
 		A56028EE1BE30A09006678B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A56028ED1BE30A09006678B2 /* AppDelegate.m */; };
-		A56028F11BE30A09006678B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56028F01BE30A09006678B2 /* ViewController.m */; };
 		A56028F41BE30A09006678B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56028F21BE30A09006678B2 /* Main.storyboard */; };
 		A56028F61BE30A09006678B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56028F51BE30A09006678B2 /* Images.xcassets */; };
 		A56028F91BE30A09006678B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A56028F71BE30A09006678B2 /* LaunchScreen.xib */; };
 		A56029051BE30A09006678B2 /* HallOfFramesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A56029041BE30A09006678B2 /* HallOfFramesTests.m */; };
+		A56029101BE30A49006678B2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A560290F1BE30A49006678B2 /* RootViewController.m */; };
+		A56029161BE30BA3006678B2 /* Orc5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A56029111BE30BA3006678B2 /* Orc5.jpg */; };
+		A56029171BE30BA3006678B2 /* Orc4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A56029121BE30BA3006678B2 /* Orc4.jpg */; };
+		A56029181BE30BA3006678B2 /* Orc3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A56029131BE30BA3006678B2 /* Orc3.jpg */; };
+		A56029191BE30BA3006678B2 /* Orc2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A56029141BE30BA3006678B2 /* Orc2.jpg */; };
+		A560291A1BE30BA3006678B2 /* Orc1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A56029151BE30BA3006678B2 /* Orc1.jpg */; };
+		A560291D1BE30CA5006678B2 /* PictureCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A560291C1BE30CA5006678B2 /* PictureCollectionViewController.m */; };
+		A56029201BE30CBE006678B2 /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = A560291F1BE30CBE006678B2 /* Picture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +39,23 @@
 		A56028EA1BE30A09006678B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A56028EC1BE30A09006678B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A56028ED1BE30A09006678B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A56028EF1BE30A09006678B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A56028F01BE30A09006678B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A56028F31BE30A09006678B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A56028F51BE30A09006678B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A56028F81BE30A09006678B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A56028FE1BE30A09006678B2 /* HallOfFramesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallOfFramesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56029031BE30A09006678B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A56029041BE30A09006678B2 /* HallOfFramesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HallOfFramesTests.m; sourceTree = "<group>"; };
+		A560290E1BE30A49006678B2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A560290F1BE30A49006678B2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A56029111BE30BA3006678B2 /* Orc5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orc5.jpg; sourceTree = "<group>"; };
+		A56029121BE30BA3006678B2 /* Orc4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orc4.jpg; sourceTree = "<group>"; };
+		A56029131BE30BA3006678B2 /* Orc3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orc3.jpg; sourceTree = "<group>"; };
+		A56029141BE30BA3006678B2 /* Orc2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orc2.jpg; sourceTree = "<group>"; };
+		A56029151BE30BA3006678B2 /* Orc1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orc1.jpg; sourceTree = "<group>"; };
+		A560291B1BE30CA5006678B2 /* PictureCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCollectionViewController.h; sourceTree = "<group>"; };
+		A560291C1BE30CA5006678B2 /* PictureCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCollectionViewController.m; sourceTree = "<group>"; };
+		A560291E1BE30CBE006678B2 /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		A560291F1BE30CBE006678B2 /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +99,19 @@
 			children = (
 				A56028EC1BE30A09006678B2 /* AppDelegate.h */,
 				A56028ED1BE30A09006678B2 /* AppDelegate.m */,
-				A56028EF1BE30A09006678B2 /* ViewController.h */,
-				A56028F01BE30A09006678B2 /* ViewController.m */,
 				A56028F21BE30A09006678B2 /* Main.storyboard */,
+				A560291E1BE30CBE006678B2 /* Picture.h */,
+				A560291F1BE30CBE006678B2 /* Picture.m */,
+				A560291B1BE30CA5006678B2 /* PictureCollectionViewController.h */,
+				A560291C1BE30CA5006678B2 /* PictureCollectionViewController.m */,
+				A560290E1BE30A49006678B2 /* RootViewController.h */,
+				A560290F1BE30A49006678B2 /* RootViewController.m */,
 				A56028F51BE30A09006678B2 /* Images.xcassets */,
+				A56029111BE30BA3006678B2 /* Orc5.jpg */,
+				A56029121BE30BA3006678B2 /* Orc4.jpg */,
+				A56029131BE30BA3006678B2 /* Orc3.jpg */,
+				A56029141BE30BA3006678B2 /* Orc2.jpg */,
+				A56029151BE30BA3006678B2 /* Orc1.jpg */,
 				A56028F71BE30A09006678B2 /* LaunchScreen.xib */,
 				A56028E81BE30A09006678B2 /* Supporting Files */,
 			);
@@ -199,7 +224,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56029191BE30BA3006678B2 /* Orc2.jpg in Resources */,
+				A56029161BE30BA3006678B2 /* Orc5.jpg in Resources */,
 				A56028F41BE30A09006678B2 /* Main.storyboard in Resources */,
+				A56029181BE30BA3006678B2 /* Orc3.jpg in Resources */,
+				A560291A1BE30BA3006678B2 /* Orc1.jpg in Resources */,
+				A56029171BE30BA3006678B2 /* Orc4.jpg in Resources */,
 				A56028F91BE30A09006678B2 /* LaunchScreen.xib in Resources */,
 				A56028F61BE30A09006678B2 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +249,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A56028F11BE30A09006678B2 /* ViewController.m in Sources */,
 				A56028EE1BE30A09006678B2 /* AppDelegate.m in Sources */,
+				A56029201BE30CBE006678B2 /* Picture.m in Sources */,
+				A560291D1BE30CA5006678B2 /* PictureCollectionViewController.m in Sources */,
 				A56028EB1BE30A09006678B2 /* main.m in Sources */,
+				A56029101BE30A49006678B2 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
